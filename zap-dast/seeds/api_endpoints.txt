@@ -1,0 +1,5 @@
+https://TARGET/api/v1/users
+https://TARGET/api/v1/profile
+https://TARGET/api/v1/orders
+https://TARGET/api/v1/admin
+https://TARGET/graphql
