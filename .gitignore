@@ -10,3 +10,4 @@ zap-alerts.json
 # OS noise
 .DS_Store
 
+*.tgz
