@@ -95,10 +95,11 @@ Each full scan generates:
 - **JSON report** (machine-readable)
 - **PDF report** (audit / compliance use)
 
-##################################################################
-👤 Author & Learning Journey
+########
+ Author & Learning Journey
 
 M Mohan
+
 Aspiring DevSecOps Engineer | Security Automation Enthusiast
 
 GitHub: https://github.com/mohan-eth0
