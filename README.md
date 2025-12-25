@@ -95,12 +95,6 @@ Each full scan generates:
 - **JSON report** (machine-readable)
 - **PDF report** (audit / compliance use)
 
-Sample report (committed for reference):
-
-```text
-scans/reports/sample-full-scan-report.html
-
-
 ##################################################################
 👤 Author & Learning Journey
 
