@@ -101,19 +101,18 @@ Sample report (committed for reference):
 scans/reports/sample-full-scan-report.html
 
 
+##################################################################
+👤 Author & Learning Journey
 
----
+M Mohan
+Aspiring DevSecOps Engineer | Security Automation Enthusiast
 
-## 👤 Author & Learning Journey
+GitHub: https://github.com/mohan-eth0
 
-** M Mohan **  
-Aspiring DevSecOps Engineer | Security Automation Learner  
+Project: https://github.com/mohan-eth0/zap-dast-devsecops
 
-- GitHub: https://github.com/mohan-eth0  
-- Project Repository: https://github.com/mohan-eth0/zap-dast-devsecops  
+This project is part of my DevSecOps learning journey, focused on hands-on experience with security automation and CI/CD-ready DAST workflows.
 
-This project was built as part of my **DevSecOps learning journey**, focusing on hands-on practice with **security automation and CI/CD-ready DAST workflows**.
+It demonstrates how OWASP ZAP can be automated to perform security scans, enforce security gates, and generate audit-ready reports within modern pipelines.
 
-It demonstrates how automated OWASP ZAP scans can be integrated into modern pipelines, enforce security gates, and generate audit-ready security reports.
-
-The objective of this project is **learning by building** — gaining practical experience with real-world DevSecOps tools, patterns, and security automation concepts.
+The goal is learning by building — applying real-world DevSecOps tools and practices to develop practical security automation skills. 🛡️🚀
