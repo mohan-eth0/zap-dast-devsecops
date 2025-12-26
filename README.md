@@ -40,24 +40,17 @@ At a high level, the automation follows this flow:
 
 Architecture Diagram:-
 
-
-flowchart TD
-    A[Python Scripts<br/>(Automation Flow)]
-    B[ZAP Python API<br/>(zapv2)]
-    C[HTTP Requests<br/>(urllib3 / requests)]
-    D[OWASP ZAP<br/>Daemon Mode]
-    E[Target Web / API<br/>Application]
-    F[Alerts Collected]
-    G[Security Gate<br/>(Fail on High / Critical)]
-    H[Reports Generated<br/>HTML / JSON / PDF]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
+flowchart TB
+    A[zap-tests/]
+    A --> B[README.md<br/>Documentation]
+    A --> C[requirements.txt<br/>Dependencies]
+    A --> D[env.example<br/>Env template]
+    A --> E[scripts/<br/>Scan orchestration]
+    A --> F[src/<br/>Python scan logic]
+    A --> G[scans/<br/>Scan artifacts]
+    G --> H[reports/<br/>HTML / JSON / PDF]
+    A --> I[seeds/<br/>API endpoint seeds]
+    A --> J[zap-env/<br/>Virtual environment]
 
 
 Step-by-Step Flow
@@ -82,17 +75,17 @@ Reports are generated
 
 Exit code determines CI/CD pass or fail
 
-flowchart TB
-    A[zap-tests/]
-    A --> B[README.md<br/>Documentation]
-    A --> C[requirements.txt<br/>Dependencies]
-    A --> D[env.example<br/>Env template]
-    A --> E[scripts/<br/>Scan orchestration]
-    A --> F[src/<br/>Python scan logic]
-    A --> G[scans/<br/>Scan artifacts]
-    G --> H[reports/<br/>HTML / JSON / PDF]
-    A --> I[seeds/<br/>API endpoint seeds]
-    A --> J[zap-env/<br/>Virtual environment]
+zap-tests/
+├── README.md          # Documentation
+├── requirements.txt   # Python dependencies
+├── env.example        # Environment variable template
+├── scripts/           # Scan orchestration scripts
+├── src/               # Python ZAP automation logic
+├── scans/
+│   └── reports/       # HTML / JSON / PDF scan reports
+├── seeds/             # API endpoint seed list
+└── zap-env/           # Python virtual environment (ignored in Git)
+
 
 
 Folder Responsibilities
