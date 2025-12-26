@@ -24,7 +24,7 @@ Many teams run scans but do **not block releases** based on security risk.
 
 This project automates OWASP ZAP to:
 
-- Run **baseline** (passive) and **full authenticated** DAST scans
+- Run **baseline**  and **full authenticated** DAST scans
 - Support **context, authentication, and forced user mode**
 - Enforce a **security gate** (fail on High/Critical findings)
 - Generate **auditable reports** (HTML / JSON / PDF)
