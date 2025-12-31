@@ -40,17 +40,6 @@ At a high level, the automation follows this flow:
 
 Architecture Diagram:-
 
-flowchart TB
-    A[zap-tests/]
-    A --> B[README.md<br/>Documentation]
-    A --> C[requirements.txt<br/>Dependencies]
-    A --> D[env.example<br/>Env template]
-    A --> E[scripts/<br/>Scan orchestration]
-    A --> F[src/<br/>Python scan logic]
-    A --> G[scans/<br/>Scan artifacts]
-    G --> H[reports/<br/>HTML / JSON / PDF]
-    A --> I[seeds/<br/>API endpoint seeds]
-    A --> J[zap-env/<br/>Virtual environment]
 
 
 Step-by-Step Flow
@@ -75,16 +64,7 @@ Reports are generated
 
 Exit code determines CI/CD pass or fail
 
-zap-tests/
-├── README.md          # Documentation
-├── requirements.txt   # Python dependencies
-├── env.example        # Environment variable template
-├── scripts/           # Scan orchestration scripts
-├── src/               # Python ZAP automation logic
-├── scans/
-│   └── reports/       # HTML / JSON / PDF scan reports
-├── seeds/             # API endpoint seed list
-└── zap-env/           # Python virtual environment (ignored in Git)
+
 
 
 
