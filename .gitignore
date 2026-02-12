@@ -11,3 +11,21 @@ zap-alerts.json
 .DS_Store
 
 *.tgz
+
+# Virtual environment
+zap-env/
+
+# Environment files
+.env
+
+# Reports
+scans/reports/
+*.pdf
+*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
