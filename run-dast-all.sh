@@ -1,3 +1,5 @@
+# Updated: removed duplicate report generation step
+
 #!/bin/bash
 
 set -e
